@@ -1,17 +1,19 @@
-
 # 🏦 Bank Transaction Management System
  
-A reliable Core Java application that simulates a real-world banking system, securely connected to a **MySQL** database using **JDBC**. 
+A reliable Core Java application that simulates a real-world banking system, securely connected to a **MySQL** database using **JDBC**.
  
 The primary focus of this project is to handle financial transactions safely, ensuring data accuracy and security during money transfers.
-
+ 
+---
+ 
 ## ✨ Features
  
 * **Account Management:** Supports creating accounts, checking balances, and viewing customer details.
 * **Safe Funds Transfer:** Moves money between accounts seamlessly with strict balance verification.
 * **Transaction Safety (ACID):** Uses explicit `commit()` and `rollback()` mechanisms. If a transfer fails midway (e.g., network issue), the system automatically rolls back to prevent any money loss.
 * **SQL Injection Security:** Implemented `PreparedStatement` instead of regular statements to protect user data from unauthorized database attacks.
-
+ 
+---
  
 ## 🛠️ Tech Stack
  
@@ -19,13 +21,14 @@ The primary focus of this project is to handle financial transactions safely, en
 * **Database:** MySQL
 * **Database API:** JDBC (Java Database Connectivity)
  
-
+---
+ 
 ## 💻 How to Run This Project
  
 1. **Clone the repository:**
-   ```bash
-git clone https://github.com/TMadhvi/TransactionJDBC.git 
-     ```
+```bash
+git clone [https://github.com/TMadhvi/TransactionJDBC.git](https://github.com/TMadhvi/TransactionJDBC.git)
+ 
 
 2.) 📂 Open MySQL Workbench / Command Line.
  Create a database and set up your accounts and transactions tables.
