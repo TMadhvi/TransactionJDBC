@@ -1,4 +1,4 @@
-# 🏦 Bank Transaction Management System
+#  Bank Transaction Management System
  
 A reliable Core Java application that simulates a real-world banking system, securely connected to a **MySQL** database using **JDBC**.
  
@@ -6,7 +6,7 @@ The primary focus of this project is to handle financial transactions safely, en
  
 ---
  
-## ✨ Features
+##  Features
  
 * **Account Management:** Supports creating accounts, checking balances, and viewing customer details.
 * **Safe Funds Transfer:** Moves money between accounts seamlessly with strict balance verification.
@@ -15,7 +15,7 @@ The primary focus of this project is to handle financial transactions safely, en
  
 ---
  
-## 🛠️ Tech Stack
+##  Tech Stack
  
 * **Programming Language:** Java (Core Java)
 * **Database:** MySQL
@@ -23,7 +23,7 @@ The primary focus of this project is to handle financial transactions safely, en
  
 ---
  
-## 💻 How to Run This Project
+##  How to Run This Project
  
 * **Step 1: Clone the Repository**
   `git clone https://github.com/TMadhvi/TransactionJDBC.git`
@@ -39,7 +39,7 @@ The primary focus of this project is to handle financial transactions safely, en
  
 ---
  
-## 💡 What I Learned From This Project
+##  What I Learned From This Project
  
 * How to establish a secure bridge between Java and MySQL using JDBC drivers.
 * Handling SQL exceptions gracefully without crashing the application.
